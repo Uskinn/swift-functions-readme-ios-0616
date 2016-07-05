@@ -5,6 +5,8 @@ func sayHello() {
 
 sayHello()
 sayHello()
+sayHello()
+sayHello()
 
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
@@ -32,6 +34,14 @@ sayHelloToCat("Mittens")
 
 let catFriend = "Socks"
 sayHelloToCat(catFriend)
+
+func sayHelloToCatty(catName: String)  {
+    print("hello, \(catName) why do you sleep so much?")
+}
+
+sayHelloToCatty("Tom")
+
+
 
 // Uncomment this line to see the error that is printed in the console.
 //sayHelloToCat()
